@@ -20,3 +20,8 @@
 – Примеры: Naumen Service Desk, GLPI, Jira Service Management.
 
 – Архитектура: Трехзвенная Web-архитектура с упором на транзакционную обработку заявок и соблюдение соглашений об уровне обслуживания (SLA).
+
+4. Простое приложение регистрации заявок (Delphi + IIS + MS SQL) Веб-приложение на Delphi (ISAPI + IIS) для регистрации пользовательских заявок с сохранением в MS SQL Server. Позволяет отправить заявку через форму и просмотреть список всех заявок в браузере.
+Структура репозитория
+
+DelphiRequestApp/ ├── Database/ │ └── CreateDatabase.sql ├── Source/ │ ├── RequestApp.dpr │ ├── RequestWebModule.pas │ └── RequestWebModule.dfm ├── README.md
